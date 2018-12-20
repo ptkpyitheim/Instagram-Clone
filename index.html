@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- Head -->
+<head>
+  <title> PTK's Instagram Clone </title>
+  <meta name="description" content="Cloning instagram's interface using CSS and HTML" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<!-- Body -->
+<body>
+
+<div class="page-wrapper">
+
+  <header>
+
+    <div class="my-header" >
+
+      <div class="position" id="left-side">
+      <div id = "ig-icon">
+        <img src="images/igicon.png" alt="ig web logo" height="30px" width="35px">
+      </div>
+
+      <div id="hori-line"> | </div>
+
+      <div id = "ig-heading">
+        <img src="images/ig-heading.png" alt="ig web heading" height="50px" width="120px">
+      </div>
+    </div>
+
+    <div class="position" id="middle">
+      <div id ="search-box">
+        <input type="text" id="search" name= "search" placeholder="Search" />
+      </div>
+    </div>
+
+      <div class = "position" id="right-side">
+        <div id = "ig-discover">
+          <img src="images/ig-discover.png" alt="ig web discover button" height="32px" width="32px">
+        </div>
+
+        <div id= "ig-heart">
+          <img src="images/ig-heart.png" alt="ig web like button" height="30px" width="30px">
+        </div>
+
+        <div id= "ig-person">
+          <img src="images/ig-person.png" alt="ig web person" height="30px" width="30px">
+        </div>
+      </div>
+
+    </div>
+
+    </header>
+
+
+    <!-- Header ends here and wrapper and body starts -->
+
+    <div class="wrapper">
+
+      <div class="all-cards">
+
+        <!-- First card -->
+
+        <div class="card">
+
+          <div class="avatar-and-name" id="avatar-and-name-oncard">
+            <div class="avatar" style="background-image: url('images/avatars/ptk_avatar.png');"> </div>
+            <div class="avatar-name"> ptk_pyitheim </div>
+          </div>
+
+          <div class="card-pic">
+            <img src="images/monks-soccer.jpg" alt="Monks playing soccer" height="420px" width="614px">
+          </div>
+
+          <div class="card-footer">
+            <div class="icons">
+              <img src="images/ig-heart.png" id="like-icon" alt="Instagram like">
+              <img src="images/ig-comment.png" id="comment-icon" alt="Instagram comment">
+              <img src="images/ig-share.png" id="share-icon" alt="Instagram share">
+              <img src="images/ig-save.png" id="save-icon" alt="Instagram save">
+            </div>
+
+            <div class="caption-and-comments">
+              <div id="num-likes"> <strong> 969 likes </strong> </div>
+              <div id="my-caption"> <strong>ptk_pyitheim</strong>  Out here in the streets. #kidsWillBeKids #tbt </div>
+
+              <div id="comment-section">
+                <div id="comment-1"> <strong>johndoe365</strong> This is amazing! Did you take this shot? </div>
+                <div id="comment-2"> <strong>helloworld123</strong> Please follow me! </div>
+              </div>
+
+              <span id="num-hours"> 3 HOURS AGO </span>
+            </div>
+
+            <div class="comment-box">
+                <form action="">
+                  <input type="comment" id="user-comment" placeholder="Add a comment...">
+                </form>
+
+              <div id="button">
+                <button type="button"> <b>. . .</b> </button>
+              </div>
+            </div>
+
+            </div>
+          </div>
+
+
+          <!-- Second card -->
+
+          <div class="card-2">
+
+            <div class="avatar-and-name" id="avatar-and-name-oncard">
+              <div class="avatar" style="background-image: url('images/avatars/nba-logo.png');"> </div>
+              <div class="avatar-name"> nba </div>
+            </div>
+
+            <div class="card-pic">
+              <img src="images/kobe-cropped.png" alt="Kobe dear basketball" height="420px" width="614px">
+            </div>
+
+            <div class="card-footer">
+              <div class="icons">
+                <img src="images/ig-heart.png" id="like-icon" alt="Instagram like">
+                <img src="images/ig-comment.png" id="comment-icon" alt="Instagram comment">
+                <img src="images/ig-share.png" id="share-icon" alt="Instagram share">
+                <img src="images/ig-save.png" id="save-icon" alt="Instagram save">
+              </div>
+
+              <div class="caption-and-comments">
+                <div id="num-likes"> <strong> 2,424,888 likes </strong> </div>
+                <div id="my-caption"> <strong>nba</strong>  Dear Basketball </div>
+
+                <div id="comment-section">
+                  <div id="comment-1"> <strong>kingjames</strong> I got you brother! Congratulations. </div>
+                  <div id="comment-2"> <strong>kyrieirving</strong> Thank you Kobe! Basketball won't be the same without you G. </div>
+                  <div id="comment-2"> <strong>easymoneysniper</strong> You coming to the Warriors? jk </div>
+                </div>
+
+                <span id="num-hours"> 5 WEEKS AGO </span>
+              </div>
+
+              <div class="comment-box">
+                  <form action="">
+                    <input type="comment" id="user-comment" placeholder="Add a comment...">
+                  </form>
+
+                <div id="button">
+                  <button type="button"> <b>. . .</b> </button>
+                </div>
+              </div>
+
+
+              </div>
+          </div>
+
+
+          <!-- Suggestions box -->
+
+            <div class="suggestions-box" id="suggestions-box1">
+
+              <div class="suggestions-and-see-all">
+                <span id="suggestions"> Suggestions For You</span>
+                <span id="see-all"> See All </span>
+              </div>
+
+              <div class="suggestions-for-you">
+
+                <div class="suggestions-avatar-box">
+
+                  <div class="suggestions-section-1">
+                    <div class="avatar" id="suggestions-avatar" style="background-image: url('images/avatars/conan.png');"> </div>
+                    <div id="x-button"> x </div>
+                  </div>
+
+                    <div class="avatar-userName" id="username-in-suggestions-box">CONAN</div>
+                    <div class="avatar-second-line-text" id="secondline-in-suggestions-box"> Followed by trevornoah </div>
+
+                    <div id="follow-button">
+                      <button class="button"> Follow </button>
+                    </div>
+
+                 </div>
+
+                  <div class="suggestions-avatar-box">
+                    <div class="inside-suggestions-avatar-box">
+
+                    <div class="suggestions-section-1">
+                      <div class="avatar" id="suggestions-avatar" style="background-image: url('images/avatars/a7x.jpg');"> </div>
+                      <div id="x-button"> x </div>
+                    </div>
+
+                      <div class="avatar-userName" id="username-in-suggestions-box"> Avenged Sevenfold </div>
+                      <div class="avatar-second-line-text" id="secondline-in-suggestions-box"> Followed by jlo </div>
+
+                      <div id="follow-button">
+                        <button class="button"> Follow </button>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="suggestions-avatar-box">
+
+                    <div class="suggestions-section-1">
+                      <div class="avatar" id="suggestions-avatar" style="background-image: url('images/avatars/dan.png');"> </div>
+                      <div id="x-button"> x </div>
+                    </div>
+
+                      <div class="avatar-userName" id="username-in-suggestions-box"> Dan Bilzerian </div>
+                      <div class="avatar-second-line-text" id="secondline-in-suggestions-box"> Followed by kingjames </div>
+
+                      <div id="follow-button">
+                        <button class="button"> Follow </button>
+                      </div>
+
+                  </div>
+
+              </div> <!-- End of suggestions for you -->
+
+            </div> <!-- End of suggestions-box -->
+
+          </div> <!-- End of all cards -->
+
+
+
+          <!-- Side bar -->
+
+          <div class="side-bar">
+
+            <div class="avatar-and-name" id="sidebar-avatar-background">
+              <div class="avatar" style="background-image: url('images/avatars/ptk_avatar.png');"> </div>
+              <div class="avatar-username-and-second-line">
+                <div class="avatar-userName"> ptk_pyitheim </div>
+                <div class="avatar-second-line-text"> Pyi Theim Kyaw </div>
+              </div>
+            </div>
+
+
+            <div class="stories-box">
+
+              <div class="nav-bar-side-bar">
+                <span id="stories"> Stories</span>
+                <span id="watch-all"> Watch All </span>
+             </div>
+
+
+              <div class="sidebar-stories-column">
+
+                <div class="avatar-and-name">
+                  <div class="avatar" style="background-image: url('images/avatars/kylie.png');"> </div>
+                  <div class="avatar-username-and-second-line">
+                    <div class="avatar-userName"> kyliejenner </div>
+                    <div class="avatar-second-line-text" id="num-hours"> 20 HOURS AGO </div>
+                  </div>
+                </div>
+
+                <div class="avatar-and-name">
+                  <div class="avatar" style="background-image: url('images/avatars/arnold.png');"> </div>
+                  <div class="avatar-username-and-second-line">
+                    <div class="avatar-userName"> schwarzenegger </div>
+                    <div class="avatar-second-line-text" id="num-hours"> 10 HOURS AGO </div>
+                  </div>
+                </div>
+
+                <div class="avatar-and-name">
+                  <div class="avatar" style="background-image: url('images/avatars/henry.png');"> </div>
+                  <div class="avatar-username-and-second-line">
+                    <div class="avatar-userName"> henry_golding </div>
+                    <div class="avatar-second-line-text" id="num-hours"> 20 MINUTES AGO </div>
+                  </div>
+                </div>
+
+                <div class="avatar-and-name">
+                  <div class="avatar" style="background-image: url('images/avatars/jessicaAlba.png');"> </div>
+                  <div class="avatar-username-and-second-line">
+                    <div class="avatar-userName"> officialjessicaalba </div>
+                    <div class="avatar-second-line-text" id="num-hours"> 5 HOURS AGO </div>
+                  </div>
+                </div>
+
+                <div class="avatar-and-name">
+                  <div class="avatar" style="background-image: url('images/avatars/jlo.png');"> </div>
+                  <div class="avatar-username-and-second-line">
+                    <div class="avatar-userName"> jlo </div>
+                    <div class="avatar-second-line-text" id="num-hours"> 5 MINUTES AGO </div>
+                  </div>
+                </div>
+
+                <div class="avatar-and-name">
+                  <div class="avatar" style="background-image: url('images/avatars/kingJames.png');"> </div>
+                  <div class="avatar-username-and-second-line">
+                    <div class="avatar-userName"> kingjames </div>
+                    <div class="avatar-second-line-text" id="num-hours"> 5 MINUTES AGO </div>
+                  </div>
+                </div>
+
+                <div class="avatar-and-name">
+                  <div class="avatar" style="background-image: url('images/avatars/mr.bean.png');"> </div>
+                  <div class="avatar-username-and-second-line">
+                    <div class="avatar-userName"> Mr.Bean </div>
+                    <div class="avatar-second-line-text" id="num-hours"> 45 MINUTES AGO </div>
+                  </div>
+                </div>
+
+                <div class="avatar-and-name">
+                  <div class="avatar" style="background-image: url('images/avatars/nba-logo.png');"> </div>
+                  <div class="avatar-username-and-second-line">
+                    <div class="avatar-userName"> nba </div>
+                    <div class="avatar-second-line-text" id="num-hours"> 5 MINUTES AGO </div>
+                  </div>
+                </div>
+
+                <div class="avatar-and-name">
+                  <div class="avatar" style="background-image: url('images/avatars/trevorNoah.png');"> </div>
+                  <div class="avatar-username-and-second-line">
+                    <div class="avatar-userName"> trevornoah </div>
+                    <div class="avatar-second-line-text" id="num-hours"> 1 HOUR AGO </div>
+                  </div>
+                </div>
+
+              </div> <!-- End of side bar stories column -->
+
+            </div> <!-- End of story box -->
+
+            <div class="sidebar-footer">
+              <p>
+                <a href="https://www.instagram.com/about/us/" target="_blank"> About Us </a> .
+                <a href="https://www.instagram.com/about/us/" target="_blank"> Support </a> .
+                <a href="https://www.instagram.com/about/us/" target="_blank"> Press </a> .
+                <a href="https://www.instagram.com/about/us/" target="_blank"> API </a> .
+                <a href="https://www.instagram.com/about/us/" target="_blank"> Jobs </a> .
+              </br>
+                <a href="https://www.instagram.com/about/us/" target="_blank"> Privacy </a> .
+                <a href="https://www.instagram.com/about/us/" target="_blank"> Terms </a> .
+                <a href="https://www.instagram.com/about/us/" target="_blank"> Directory </a> .
+                <a href="https://www.instagram.com/about/us/" target="_blank"> Profiles </a> .
+              </br>
+                <a href="https://www.instagram.com/about/us/" target="_blank"> Hashtags </a> .
+                <a href="https://www.instagram.com/about/us/" target="_blank"> Language </a>
+              </br>
+              </p>
+
+              <a href="https://www.instagram.com/" id="copyright"> © 2018 INSTAGRAM </a>
+            </div>
+
+
+          </div> <!-- End of side bar -->
+
+
+      </div> <!-- End of wrapper -->
+
+</div> <!-- End of page wrapper -->
+
+
+</body>
+
+</html>
